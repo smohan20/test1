@@ -1,0 +1,7 @@
+test = "broccoli"
+
+def convert(x)
+	x.chars.each do {|li| x.count(li) > 1 ? ")" : "("}.join("")
+end
+
+p convert(broccoli)
